@@ -25,7 +25,7 @@ These are seven major parts of the project:
 
 
 ## Architectural Diagram
-<img src=".Screenshot/a0_archi.PNG" />
+<img src="./Screenshot/a0_archi.PNG" />
 
 ## Major Seven Steps
 
@@ -34,7 +34,7 @@ These are seven major parts of the project:
 A service principal is required to be created for authetication and security, but Udacity lab has already created it in the course-lab. 
 <img src="Screenshots/a0_az2ANDaz3.PNG">
 
-2.AutoML Experiment
+##2.AutoML Experiment
 The AutoML run creation started with compute cluster configuration with given specifications
 of compute cluster VM size Standard_DS12_V2. Then it is configured with 1 as the
 minimum umber of nodes. Then an Auto ML experiment is created
@@ -57,7 +57,7 @@ The AutoML experiment is completed. It shows the best model and the other models
 The best Model obtained through the AutoML experiment is Voting Ensemble. The accuracy of the model is 0.91958.
 <img src="./Screenshots/a3_votingEn.PNG" />
 
-3. Deploy the best model
+##3. Deploy the best model
 The best model, in this case, Voting Ensemble is deployed using Azure Container Instance(ACI)
 deployment status is 'healthy'. 
 
@@ -96,22 +96,26 @@ After executing swagger.sh file, the serve.py python file is executed on differe
 
 ### Swagger documentation
 The swagger UI is shown in the follwoing screeshot
+
 <img src="./Screenshots/d2_localhost.PNG" />
 
 
 ### GET request
 <img src="./Screenshots/d4_httpget1.PNG" />
+
 <img src="./Screenshots/d5_httpget2.PNG" />
 
 ### POST request
 POST request accepts json. The sample data tells us what type of data is being accepted. 
 <img src="./Screenshots/d6_post1.PNG" />
+
 <img src="./Screenshots/d7_post2.PNG" />
 
 ## 6. Consume Model Endpoints
 Since the model is deployed, we can interact with the trained model.
  The endpoint.py file is used to show that the endpoint is consumed.
  The below screenshot shows the response that endpoint.py returns.
+ 
 <img src="./Screenshots/e1_scoringuri_key.PNG" />
 
 ### Running endpoints.py file
@@ -120,31 +124,41 @@ After swagger documentation, the endpoints.py file is executed. The screenshot s
 
 ##7. Create and Publish a Pipeline
 In this step a pipeline is created. Jupyter notebook is used for AutoML run. config.json file is downloaded.
- After setting the pipeline, the pipeline is run and late it is published which could be observed under
- pipline endpoints. The follwoing screenshots shows the creation and publishing of the pipleine.
+After setting the pipeline, the pipeline is run and late it is published which could be observed under
+pipline endpoints. The follwoing screenshots shows the creation and publishing of the pipleine.
 
 ### Pipeline created 
 The pipeline is created.
+
 <img src="./Screenshots/pipeline running.PNG" />
 
 ### Pipeline Endpoint
+
 The screenshot shows the pipleine endpoint
+
 <img src="./Screenshots/pipeline endpoint.PNG" />
 
 ### Pipeline Completed
 The pipeline is completed
+
 <img src="./Screenshots/p_completed.PNG" />
 
 ### Published Pipeline Overiew
+
 <img src="./Screenshots/jupyt_pipeline.PNG" />
 
 ### RunDetails Widget
+
 <img src="./Screenshots/jupy2.PNG" />
+
 <img src="./Screenshots/jupy3.PNG" />
 
 ### Pipeline REST Active points and scheduled Run
+
 <img src="./Screenshots/p4_REST_ACTIVE.PNG" />
+
 <img src="./Screenshots/p1_to_publish.PNG" />
+
 <img src="./Screenshots/p2.PNG" />
 
 ## Screen Recording
