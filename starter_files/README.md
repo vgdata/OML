@@ -30,13 +30,13 @@ These are seven major parts of the project:
 
 ## Major Seven Steps
 
-##1. Authentication
+## 1. Authentication
 
 A service principal is required to be created for authetication and security, but Udacity lab has already created it in the course-lab. 
 
 <img src="./Screenshots/a0_az2ANDaz3.PNG" />
 
-##2.AutoML Experiment
+## 2.AutoML Experiment
 The AutoML run creation started with compute cluster configuration with given specifications
 of compute cluster VM size Standard_DS12_V2. Then it is configured with 1 as the
 minimum umber of nodes. Then an Auto ML experiment is created
@@ -104,10 +104,6 @@ After executing swagger.sh file, the serve.py python file is executed on differe
 
 
 ### Swagger documentation
-The swagger UI is shown in the follwoing screeshot
-
-<img src="./Screenshots/d2_localhost.PNG" />
-
 
 ### GET request
 <img src="./Screenshots/d4_httpget1.PNG" />
