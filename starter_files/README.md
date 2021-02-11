@@ -25,6 +25,7 @@ These are seven major parts of the project:
 
 
 ## Architectural Diagram
+
 <img src="./Screenshot/a0_archi.PNG" />
 
 ## Major Seven Steps
@@ -57,7 +58,8 @@ The AutoML experiment is completed. It shows the best model and the other models
 The best Model obtained through the AutoML experiment is Voting Ensemble. The accuracy of the model is 0.91958.
 <img src="./Screenshots/a3_votingEn.PNG" />
 
-##3. Deploy the best model
+## 3. Deploy the best model
+
 The best model, in this case, Voting Ensemble is deployed using Azure Container Instance(ACI)
 deployment status is 'healthy'. 
 
@@ -66,7 +68,8 @@ The model - Voting Ensemble is deployed using Azure Container Instances. The aut
 <img src="./Screenshots/b1_deploy1.PNG" />
 
 
-##4. Enable Logging 
+## 4. Enable Logging 
+
 Once the best model is deployed, we have to enable logging using the python file logs.py.
 The application insights are made true for the deployed endpoints and to retrieve the log.
 The following screenshots shows the logs.
@@ -123,17 +126,12 @@ Since the model is deployed, we can interact with the trained model.
 After swagger documentation, the endpoints.py file is executed. The screenshot shows the output.
 <img src="./Screenshots/enpoint-results.PNG" />
 
-##7. Create and Publish a Pipeline
+## 7. Create and Publish a Pipeline
+
 In this step a pipeline is created. Jupyter notebook is used for AutoML run. config.json file is downloaded.
 After setting the pipeline, the pipeline is run and late it is published which could be observed under
 pipline endpoints. The follwoing screenshots shows the creation and publishing of the pipleine.
 
-##7.  Pipeline created 
-The pipeline is created.
-
-<img src="./Screenshots/pipeline running.PNG" />
-
-### Pipeline Endpoint
 
 The screenshot shows the pipleine endpoint
 
