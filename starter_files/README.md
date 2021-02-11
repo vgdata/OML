@@ -81,18 +81,19 @@ enables Application Insights. "Application Insights enabled" is disabled before 
 5.Swagger Documentation 
 In this step, swagger container is deployed in order to view the swagger documetation. For this the swagger.json file is downloaded. The swagger.sh and serve.py file is run. All these files should be in the same folder. The GET and POST request could be observed in the swagger UI. The below screenshots show the swagger documentation.
 
-### Running swagger.sh file
+### Running swagger.sh file, Running serve.py file
 The port number is updated and the swagger.sh file is executed.
+After executing swagger.sh file, the serve.py python file is executed on different port.
 <img src="./Screenshots/d0_swag1.PNG" />
 <img src="./Screenshots/d1_swaggerjson.PNG" />
 
-### Running serve.py file
-After executing swagger.sh file, the serve.py python file is executed on different port.
+### Swagger.uri and swagger.json
+<img src="./Screenshots/d3_http_swag_ui.PNG" />
 
 ### Swagger documentation
 The swagger UI is shown in the follwoing screeshot
 <img src="./Screenshots/d2_localhost.PNG" />
-<img src="./Screenshots/d3_http_swag_ui.PNG" />
+
 
 ### GET request
 <img src="./Screenshots/d4_httpget1.PNG" />
@@ -103,7 +104,7 @@ POST request accepts json. The sample data tells us what type of data is being a
 <img src="./Screenshots/d6_post1.PNG" />
 <img src="./Screenshots/d7_post2.PNG" />
 
-6. Consume Model Endpoints
+##6. Consume Model Endpoints
 Since the model is deployed, we can interact with the trained model.
  The endpoint.py file is used to show that the endpoint is consumed.
  The below screenshot shows the response that endpoint.py returns.
