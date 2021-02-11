@@ -29,10 +29,10 @@ These are seven major parts of the project:
 
 ## Major Seven Steps
 
-1. Authentication
+##1. Authentication
 
 A service principal is required to be created for authetication and security, but Udacity lab has already created it in the course-lab. 
-<img src="Screenshots/a0_az2ANDaz3.PNG">
+<img src="Screenshots/a0_archi.PNG">
 
 ##2.AutoML Experiment
 The AutoML run creation started with compute cluster configuration with given specifications
@@ -61,7 +61,7 @@ The best Model obtained through the AutoML experiment is Voting Ensemble. The ac
 The best model, in this case, Voting Ensemble is deployed using Azure Container Instance(ACI)
 deployment status is 'healthy'. 
 
-### Deploying the best model
+##3. Deploying the best model
 The model - Voting Ensemble is deployed using Azure Container Instances. The authentication is enabled.
 <img src="./Screenshots/b1_deploy1.PNG" />
 
@@ -79,6 +79,7 @@ enables Application Insights. "Application Insights enabled" is disabled before 
 <img src="./Screenshots/c1_appli.PNG" />
 
 ##5. Swagger Documentation 
+
 In this step, swagger container is deployed in order to view the swagger documetation. For this the swagger.json file is downloaded. The swagger.sh and serve.py file is run. All these files should be in the same folder. The GET and POST request could be observed in the swagger UI. The below screenshots show the swagger documentation.
 
 ### Running swagger.sh file, Running serve.py file
@@ -127,7 +128,7 @@ In this step a pipeline is created. Jupyter notebook is used for AutoML run. con
 After setting the pipeline, the pipeline is run and late it is published which could be observed under
 pipline endpoints. The follwoing screenshots shows the creation and publishing of the pipleine.
 
-### Pipeline created 
+##7.  Pipeline created 
 The pipeline is created.
 
 <img src="./Screenshots/pipeline running.PNG" />
@@ -136,7 +137,7 @@ The pipeline is created.
 
 The screenshot shows the pipleine endpoint
 
-<img src="./Screenshots/pipeline endpoint.PNG" />
+<img src="./Screenshots/endpoint.PNG" />
 
 ### Pipeline Completed
 The pipeline is completed
