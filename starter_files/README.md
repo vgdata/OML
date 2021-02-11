@@ -66,29 +66,33 @@ The model - Voting Ensemble is deployed using Azure Container Instances. The aut
 <img src="./Screenshots/b1_deploy1.PNG" />
 
 
-4. Enable Logging 
+##4. Enable Logging 
 Once the best model is deployed, we have to enable logging using the python file logs.py.
 The application insights are made true for the deployed endpoints and to retrieve the log.
 The following screenshots shows the logs.
 
-### logs.py script and Applications inisghts enabled to True
+### logs.py script and Applications insghts enabled to True
 We choose the best model for deployment and enable "Authentication" while
 deploying the model using Azure Container Instance (ACI). The executed code in logs.py
 enables Application Insights. "Application Insights enabled" is disabled before executing logs.py.
 <img src="./Screenshots/c0_logspy.PNG" />
 <img src="./Screenshots/c1_appli.PNG" />
 
-5.Swagger Documentation 
+##5. Swagger Documentation 
 In this step, swagger container is deployed in order to view the swagger documetation. For this the swagger.json file is downloaded. The swagger.sh and serve.py file is run. All these files should be in the same folder. The GET and POST request could be observed in the swagger UI. The below screenshots show the swagger documentation.
 
 ### Running swagger.sh file, Running serve.py file
 The port number is updated and the swagger.sh file is executed.
-After executing swagger.sh file, the serve.py python file is executed on different port.
-<img src="./Screenshots/d0_swag1.PNG" />
-<img src="./Screenshots/d1_swaggerjson.PNG" />
 
 ### Swagger.uri and swagger.json
+<img src="./Screenshots/d0_swag1.PNG" />
+
+<img src="./Screenshots/d1_swaggerjson.PNG" />
+
+After executing swagger.sh file, the serve.py python file is executed on different port.
+
 <img src="./Screenshots/d3_http_swag_ui.PNG" />
+
 
 ### Swagger documentation
 The swagger UI is shown in the follwoing screeshot
@@ -104,7 +108,7 @@ POST request accepts json. The sample data tells us what type of data is being a
 <img src="./Screenshots/d6_post1.PNG" />
 <img src="./Screenshots/d7_post2.PNG" />
 
-##6. Consume Model Endpoints
+## 6. Consume Model Endpoints
 Since the model is deployed, we can interact with the trained model.
  The endpoint.py file is used to show that the endpoint is consumed.
  The below screenshot shows the response that endpoint.py returns.
@@ -114,7 +118,7 @@ Since the model is deployed, we can interact with the trained model.
 After swagger documentation, the endpoints.py file is executed. The screenshot shows the output.
 <img src="./Screenshots/enpoint-results.PNG" />
 
-7. Create and Publish a Pipeline
+##7. Create and Publish a Pipeline
 In this step a pipeline is created. Jupyter notebook is used for AutoML run. config.json file is downloaded.
  After setting the pipeline, the pipeline is run and late it is published which could be observed under
  pipline endpoints. The follwoing screenshots shows the creation and publishing of the pipleine.
