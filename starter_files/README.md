@@ -81,7 +81,7 @@ enables Application Insights. "Application Insights enabled" is disabled before 
 <img src="./Screenshots/c0_logspy.PNG" />
 <img src="./Screenshots/c1_appli.PNG" />
 
-##5. Swagger Documentation 
+## 5. Swagger Documentation 
 
 In this step, swagger container is deployed in order to view the swagger documetation. For this the swagger.json file is downloaded. The swagger.sh and serve.py file is run. All these files should be in the same folder. The GET and POST request could be observed in the swagger UI. The below screenshots show the swagger documentation.
 
@@ -93,10 +93,10 @@ The port number is updated and the swagger.sh file is executed.
 
 <img src="./Screenshots/d1_swaggerjson.PNG" />
 
+### Running swagger.sh file, Running serve.py file
+
 <img src="./Screenshots/d3_http_swag_ui.PNG" />
 
-
-### Running swagger.sh file, Running serve.py file
 After executing swagger.sh file, the serve.py python file is executed on different port.
 
 
