@@ -26,7 +26,7 @@ These are seven major parts of the project:
 
 ## Architectural Diagram
 
-<img src="./Screenshot/a0_archi.PNG" />
+<img src="./Screenshots/a0_archi.PNG" />
 
 ## Major Seven Steps
 
@@ -85,17 +85,19 @@ enables Application Insights. "Application Insights enabled" is disabled before 
 
 In this step, swagger container is deployed in order to view the swagger documetation. For this the swagger.json file is downloaded. The swagger.sh and serve.py file is run. All these files should be in the same folder. The GET and POST request could be observed in the swagger UI. The below screenshots show the swagger documentation.
 
-### Running swagger.sh file, Running serve.py file
+### Swagger.uri and swagger.json
+
 The port number is updated and the swagger.sh file is executed.
 
-### Swagger.uri and swagger.json
 <img src="./Screenshots/d0_swag1.PNG" />
 
 <img src="./Screenshots/d1_swaggerjson.PNG" />
 
-After executing swagger.sh file, the serve.py python file is executed on different port.
-
 <img src="./Screenshots/d3_http_swag_ui.PNG" />
+
+
+### Running swagger.sh file, Running serve.py file
+After executing swagger.sh file, the serve.py python file is executed on different port.
 
 
 ### Swagger documentation
