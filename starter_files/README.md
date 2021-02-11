@@ -33,7 +33,8 @@ These are seven major parts of the project:
 ##1. Authentication
 
 A service principal is required to be created for authetication and security, but Udacity lab has already created it in the course-lab. 
-<img src="Screenshots/a0_archi.PNG">
+
+<img src="./Screenshots/a0_az2ANDaz3.PNG" />
 
 ##2.AutoML Experiment
 The AutoML run creation started with compute cluster configuration with given specifications
@@ -50,7 +51,9 @@ Bank Maeketing dataset has been uploaded and is available.
 ### Autom ML Experiment Completed, different AutoML models
 This shows the list of different models through which the AutoML experiment has run through.
 The AutoML experiment is completed. It shows the best model and the other models.
+
 <img src="./Screenshots/a4_runs_with_BM.PNG" />
+
 <img src="./Screenshots/a2_completed" />
 
 
@@ -126,7 +129,8 @@ Since the model is deployed, we can interact with the trained model.
 
 ### Running endpoints.py file
 After swagger documentation, the endpoints.py file is executed. The screenshot shows the output.
-<img src="./Screenshots/enpoint-results.PNG" />
+
+<img src="./Screenshots/endpoint-results.PNG" />
 
 ## 7. Create and Publish a Pipeline
 
