@@ -32,7 +32,7 @@ These are seven major parts of the project:
 1. Authentication
 
 A service principal is required to be created for authetication and security, but Udacity lab has already created it in the course-lab. 
-<img src="Screenshots/a0_az2ANDaz3.PNG" />
+<img src="Screenshots/a0_az2ANDaz3.PNG">
 
 2.AutoML Experiment
 The AutoML run creation started with compute cluster configuration with given specifications
