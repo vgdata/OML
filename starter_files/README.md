@@ -36,7 +36,7 @@ A service principal is required to be created for authetication and security, bu
 
 <img src="./Screenshots/a0_az2ANDaz3.PNG" />
 
-## 2.AutoML Experiment
+## 2. AutoML Experiment
 The AutoML run creation started with compute cluster configuration with given specifications
 of compute cluster VM size Standard_DS12_V2. Then it is configured with 1 as the
 minimum umber of nodes. Then an Auto ML experiment is created
