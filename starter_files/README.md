@@ -44,7 +44,7 @@ The follwing screeshots shows the steps.
    
 ### Dataset
 Bank Maeketing dataset has been uploaded and is available.
-<img src="./Screenshots/a1_reg_dataset.PNG" />
+<img src="Screenshots/a1_reg_dataset.PNG">
 
 ### Autom ML Experiment Completed, different AutoML models
 This shows the list of different models through which the AutoML experiment has run through.
@@ -55,7 +55,7 @@ The AutoML experiment is completed. It shows the best model and the other models
 
 ### Best Model
 The best Model obtained through the AutoML experiment is Voting Ensemble. The accuracy of the model is 0.91958.
-<img src="./Screenshots/a3_votingEn.jpg" />
+<img src="./Screenshots/a3_votingEn.PNG" />
 
 3. Deploy the best model
 The best model, in this case, Voting Ensemble is deployed using Azure Container Instance(ACI)
