@@ -54,11 +54,12 @@ The AutoML experiment is completed. It shows the best model and the other models
 
 <img src="./Screenshots/a4_runs_with_BM.PNG" />
 
-<img src="./Screenshots/a2_completed" />
+<img src="./Screenshots/a2_completed.PNG" />
 
 
 ### Best Model
 The best Model obtained through the AutoML experiment is Voting Ensemble. The accuracy of the model is 0.91958.
+
 <img src="./Screenshots/a3_votingEn.PNG" />
 
 ## 3. Deploy the best model
@@ -137,7 +138,7 @@ pipline endpoints. The follwoing screenshots shows the creation and publishing o
 
 The screenshot shows the pipleine endpoint
 
-<img src="./Screenshots/endpoint.PNG" />
+<img src="./Screenshots/p3_endpoint.PNG" />
 
 ### Pipeline Completed
 The pipeline is completed
