@@ -27,11 +27,13 @@ These are seven major parts of the project:
 
 <img src="./Screenshots/a0_archi.PNG" />
 
+
 ## Major Seven Steps
 
 ## 1. Authentication
 
 A service principal is required to be created for authetication and security, but Udacity lab has already created it in the course-lab. 
+
 <img src="./Screenshots/a0_az2ANDaz3.PNG" />
 
 ## 2. AutoML Experiment
@@ -48,9 +50,9 @@ Bank Maeketing dataset has been uploaded and is available.
 
 ### Autom ML Experiment Completed, different AutoML models
 This shows the list of different models through which the AutoML experiment has run through.
-The AutoML experiment is completed. It shows the best model and the other models.
+The AutoML experiment is completed. It shows the best model and the other models
+.
 <img src="./Screenshots/a4_runs_with_BM.PNG" />
-<img src="./Screenshots/a2_completed" />
 
 
 ### Best Model
