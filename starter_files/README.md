@@ -8,24 +8,24 @@ and it is published.
 
 These are seven major parts of the project:
 
-1.Authentication
+1. Authentication
 
-2.Automated ML Experiment
+2. Automated ML Experiment
 
-3.Deploy the best model
+3. Deploy the best model
 
-4.Enable logging
+4. Enable logging
 
-5.Swagger Documentation
+5. Swagger Documentation
 
-6.Consume model endpoints
+6. Consume model endpoints
 
-7.Create and publish a pipeline
+7. Create and publish a pipeline
 
-VARSHA
 
 ## Architectural Diagram
-<img src="./Screenshots/a0_archi.PNG" />
+
+<img src="./Screenhots/a0_archi.PNG" />
 
 ## Major Seven Steps
 
