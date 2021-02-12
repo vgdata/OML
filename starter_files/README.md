@@ -57,8 +57,8 @@ The AutoML experiment is completed. It shows the best model and the other models
 
 
 ### Best Model
-The best Model obtained through the AutoML experiment is Voting Ensemble. The accuracy of the model is 0.91958.
-<img src="./Screenshots/a3_votingEn.PNG" />
+The best Model obtained through the AutoML experiment is Voting Ensemble. The accuracy of the model is 0.91927.
+<img src="./Screenshots/a2_models.PNG" />
 
 ## 3. Deploy the best model
 The best model, in this case, Voting Ensemble is deployed using Azure Container Instance(ACI)
