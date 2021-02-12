@@ -53,7 +53,7 @@ Bank Maeketing dataset has been uploaded and is available.
 This shows the list of different models through which the AutoML experiment has run through.
 The AutoML experiment is completed. It shows the best model and the other models
 .
-<img src="./Screenshots/a4_runs_with_BM.PNG" />
+<img src="./Screenshots/a4_runs_with_bestM.PNG" />
 
 
 ### Best Model
