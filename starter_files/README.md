@@ -26,7 +26,7 @@ These are seven major parts of the project:
 ## Architectural Diagram
 
 
-<img src="./Screenshots/a0_archi.PNG"/>
+<img src="./Screenshots/a0_archi.png"/>
 
 ## Major Seven Steps
 
@@ -58,13 +58,13 @@ The AutoML experiment is completed. It shows the best model and the other models
 
 ### Best Model
 The best Model obtained through the AutoML experiment is Voting Ensemble. The accuracy of the model is 0.91958.
-<img src="./Screenshots/a3_votingEn.jpg" />
+<img src="./Screenshots/a3_votingEn.PNG" />
 
 ## 3. Deploy the best model
 The best model, in this case, Voting Ensemble is deployed using Azure Container Instance(ACI)
 deployment status is 'healthy'. 
 
-<img src="./Screenshots/c0_healthy.jpg" />
+<img src="./Screenshots/c0_healthy.PNG" />
 
 ### Deploying the best model
 The model - Voting Ensemble is deployed using Azure Container Instances. The authentication is enabled.
