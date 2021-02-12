@@ -25,8 +25,8 @@ These are seven major parts of the project:
 
 ## Architectural Diagram
 
-<img src="./Screenshots/a0_archi.PNG"/>
 
+<img src="./Screenshots/a0_archi.PNG"/>
 
 ## Major Seven Steps
 
