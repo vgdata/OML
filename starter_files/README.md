@@ -25,7 +25,7 @@ These are seven major parts of the project:
 
 ## Architectural Diagram
 
-<img src="./Screenshots/a0_archi.PNG" />
+<img src="./Screenshots/a0_archi.PNG"/>
 
 
 ## Major Seven Steps
@@ -34,7 +34,7 @@ These are seven major parts of the project:
 
 A service principal is required to be created for authetication and security, but Udacity lab has already created it in the course-lab. 
 
-<img src="./Screenshots/a0_az2ANDaz3.PNG" />
+<img src="./Screenshots/a0_az2ANDaz3.PNG"/>
 
 ## 2. AutoML Experiment
 The AutoML run creation started with compute cluster configuration with given specifications
@@ -46,6 +46,7 @@ The follwing screeshots show the steps.
    
 ### Dataset
 Bank Maeketing dataset has been uploaded and is available.
+
 <img src="./Screenshots/a1_reg_dataset.PNG" />
 
 ### Autom ML Experiment Completed, different AutoML models
